@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/d7ecc0855d.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="w-9/12 mx-auto my-5">
+    <header class="bg-sky-400 rounded-lg">
+        <h1 class="font-semibold text-center text-4xl py-4">My Text Editor</h1>
+        <div class="w-9/12 mx-auto py-4 border-2 border-black  bg-sky-200 grid grid-cols-3">
+            <div class="flex gap-3 justify-center">
+                <button id="bold-btn"><i class="fa-solid fa-bold"></i></button>
+                <button id="italic-btn"><i class="fa-solid fa-italic"></i></button>
+                <button id="underlilne-btn"><i class="fa-solid fa-underline"></i></button>
+            </div>
+            <div class="flex gap-3 justify-center">
+                <button id="left"><i class="fa-solid fa-align-left"></i></button>
+                <button id="center"><i class="fa-solid fa-align-center"></i></button>
+                <button id="justify"><i class="fa-solid fa-align-justify"></i></button>
+                <button id="right"><i class="fa-solid fa-align-right"></i></button>
+            </div>
+            <div class="flex gap-3 justify-center">
+                <button id="uppercase">aA</button>
+                <input type="color" id="favcolor" name="favcolor" value="#000000">
+            </div>
+            
+        </div>
+        <div class="w-9/12 mx-auto">
+            <textarea id="text-field" class="border-2 border-black" name="" id="" cols="100" rows="15"></textarea>
+        </div>
+    </header>
+
+    <script src="./text.js"></script>
+</body>
+
+</html>
